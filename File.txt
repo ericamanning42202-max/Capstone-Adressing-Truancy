@@ -1,0 +1,38 @@
+README - Deploy to GitHub Pages
+===============================
+
+Instructions to publish this site on GitHub Pages:
+
+1) Create a new GitHub repository
+   - Go to https://github.com and sign in.
+   - Click the + (top-right) -> New repository.
+   - Repository name: capstone
+   - Description: Addressing Truancy in South Carolina Schools — Erica D. Manning
+   - Set repository to Public (or Private if you prefer).
+   - DO NOT initialize with a README (optional).
+
+2) Upload files
+   - Download and unzip the package I provided in this assignment.
+   - Drag and drop the files into your new repository (or use git push).
+   - Commit the changes.
+
+3) Enable GitHub Pages
+   - In your repository, go to Settings -> Pages.
+   - Under 'Build and deployment' choose 'Deploy from a branch'.
+   - Under 'Branch' choose 'main' (or 'master' if your repo uses that).
+   - Root folder: / (leave as default).
+   - Click 'Save' or 'Deploy'; GitHub will publish the site shortly.
+
+4) Access your live site
+   - After a minute or two, your site will be available at:
+     https://<your-github-username>.github.io/capstone
+   - Example: https://ericadmanning.github.io/capstone
+
+Notes:
+- The form stores sign-ups in the user's browser (localStorage). To collect real submissions, connect the form to a backend or use Google Forms.
+- If you want, I can generate a zip formatted for direct upload or provide the exact git commands to push the files from your computer.
+
+Files included:
+- index.html  (the complete website)
+- README.txt  (this file)
+
